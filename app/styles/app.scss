@@ -1,0 +1,27 @@
+/* typography */
+$font-stack-monospace: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+$font-stack-helvetica: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-stack-opensans: "OpenSans",Arial,Helvetica,sans-serif;
+
+$header-font-family: $font-stack-opensans;
+$body-font-family: $font-stack-opensans;
+
+/* colours */
+$primary-color: #13456B;
+
+$topbar-bg-color: #13456B;
+$topbar-link-bg-hover: darken($topbar-bg-color, 5);
+
+@import "foundation/scss/normalize";
+@import "foundation/scss/foundation";
+
+$fi-path: "/bower_components/foundation-icon-fonts";
+@import "foundation-icon-fonts/foundation-icons";
+
+/* document styling*/
+
+/* footer styling */
+
+footer hr {
+  margin-bottom: 0;
+}
