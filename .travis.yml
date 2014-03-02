@@ -1,10 +1,22 @@
 language: node_js
 node_js:
-  - "0.10"
+- '0.10'
 before_script:
-  - gem install compass
-  - npm install -g grunt-cli
-  - npm install -g bower
-  - npm install -g phantomjs
-  - pushd test && bower install && popd
-  - bower install
+- gem install compass
+- npm install -g grunt-cli
+- npm install -g bower
+- npm install -g phantomjs
+- pushd test && bower install && popd
+- bower install
+after_success:
+- grunt build:dist
+deploy:
+  provider: s3
+  access_key_id: AKIAINQC4T7WXZFT5GOQ
+  secret_access_key:
+    secure: goybbTfc/0DYz1HwK/jIXEsJCXMTD1puM6tgK3jHk9dUVLSH8aPtUUnlfZhPiMUuY1s7wE2syYw+LSVAJhrJqgu8fPnW4+/iHtlC/YuGx/ueUhkv0yuvcif2gme/cMw3U5521zDLG49hWwubdBxE+Fy1cMicl+leefT7jJrb/XU=
+  bucket: pr-client-dev
+  local-dir: dist
+  on:
+    repo: portobello-road/barrow-client
+    branch: develop
