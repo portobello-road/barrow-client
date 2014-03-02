@@ -4,7 +4,7 @@ node_js:
 before_script:
   - sudo apt-get install ruby rubygems
   - sudo gem install compass
-  - sudo npm install -g grunt-cli
-  - sudo npm install -g bower
+  - npm install -g grunt-cli
+  - npm install -g bower
   - bower install
   - grunt build
