@@ -5,4 +5,5 @@ before_script:
   - gem install compass
   - npm install -g grunt-cli
   - npm install -g bower
+  - npm install -g phantomjs
   - bower install
