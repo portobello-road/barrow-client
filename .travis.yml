@@ -17,6 +17,7 @@ deploy:
     secure: goybbTfc/0DYz1HwK/jIXEsJCXMTD1puM6tgK3jHk9dUVLSH8aPtUUnlfZhPiMUuY1s7wE2syYw+LSVAJhrJqgu8fPnW4+/iHtlC/YuGx/ueUhkv0yuvcif2gme/cMw3U5521zDLG49hWwubdBxE+Fy1cMicl+leefT7jJrb/XU=
   bucket: pr-client-dev
   local-dir: dist
+  skip_cleanup: true
   on:
     repo: portobello-road/barrow-client
     branch: develop
