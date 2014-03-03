@@ -9,7 +9,7 @@ before_script:
 - pushd test && bower install && popd
 - bower install
 after_success:
-- grunt build:dist
+- bundle exec grunt build:dist
 deploy:
   provider: s3
   access_key_id: AKIAINQC4T7WXZFT5GOQ
