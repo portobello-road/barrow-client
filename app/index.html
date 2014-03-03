@@ -8,14 +8,14 @@
         <link rel="stylesheet" href="styles/app.css">
         <!-- endbuild -->
 
-        <!-- build:js scripts/header.js -->
+        <!-- build:js({app,.tmp}) scripts/vendor-header.js -->
         <script src="bower_components/foundation/js/vendor/modernizr.js"></script>
         <script src="bower_components/jquery/jquery.js"></script>
         <script src="bower_components/foundation/js/vendor/fastclick.js"></script>
         <!-- endbuild -->
 </head>
     <body>
-        <!-- build:js(app) scripts/components.js -->
+        <!-- build:js({app,.tmp}) scripts/vendor.js -->
         <script src="bower_components/handlebars/handlebars.runtime.js"></script>
         <script src="@@ember"></script>
         <script src="@@ember_data"></script>

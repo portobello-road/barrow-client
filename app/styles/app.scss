@@ -15,7 +15,7 @@ $topbar-link-bg-hover: darken($topbar-bg-color, 5);
 @import "foundation/scss/normalize";
 @import "foundation/scss/foundation";
 
-$fi-path: "/bower_components/foundation-icon-fonts";
+$fi-path: "/styles/fonts";
 @import "foundation-icon-fonts/foundation-icons";
 
 /* document styling*/

@@ -4,4 +4,5 @@ dist
 .sass-cache
 .tmp
 app/bower_components
+app/styles/fonts
 .idea
