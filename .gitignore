@@ -6,3 +6,4 @@ dist
 app/bower_components
 app/styles/fonts
 .idea
+.bundle
