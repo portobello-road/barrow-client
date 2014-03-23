@@ -30,7 +30,7 @@ $.extend_if_has = function(desc, source, array) {
             name: 'tilda',
             height: 250,
             enabled: false,
-            greetings: 'Portobello Road Client Debug Console',
+            greetings: 'Portobello Road Client Console',
             keypress: function(e) {
                 if (e.which == 96) {
                     return false;
