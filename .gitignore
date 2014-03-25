@@ -18,3 +18,5 @@ bower_components/
 
 dist
 dist/*
+_public
+_public/*
