@@ -1,0 +1,36 @@
+ul.title-area
+  li.name
+section.top-bar-section
+  ul.right
+    li(title='Messages')
+      a
+        i.fi-mail(alt='No unread messages')
+    li(title='Personal Information Access Status')
+      a
+        i.fi-folder-lock(alt='Personal Information is unavailable')
+    li(title='Cart')
+      a
+        i.fi-shopping-cart(alt='Cart is empty') 0
+    li.has-dropdown
+      a
+        i.fi-torso(alt='User is') John Q. User
+      ul.dropdown
+        li
+          a
+            i.fi-wrench Settings
+        li
+          a
+            i.fi-x-circle Sign Out
+  ul.left
+    li(title='Connection Status')
+      a
+        i.fi-check(alt='Connection status is Connected')
+    li.has-dropdown
+      a Explore
+    li.has-form
+      div.row.collapse
+        div.large-9.small-10.columns
+          input(type='text', placeholder='Search')
+        div.large-3.small-2.columns
+          a(class="button expand [radius round]")
+            i.fi-magnifying-glass(title='Search', alt='Perform Search')

@@ -1,1 +1,0 @@
-BarrowClient.ApplicationAdapter = DS.FixtureAdapter;
